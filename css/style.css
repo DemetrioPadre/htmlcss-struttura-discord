@@ -29,7 +29,6 @@ header {
   display: flex;
   justify-content: space-around;
   width: 400px;
-  display: inline-block;
 }
 .header-right {
   background-color: orange;
@@ -73,19 +72,19 @@ header {
   background-color: lightgrey;
   padding: 50px;
   display: flex;
+  flex-direction: row-reverse;
   justify-content: center;
 }
 .box-blue-rev {
   background-color: blue;
   min-height: 500px;
   min-width: 700px;
-  margin-right: 200px;
 }
+
 .box-pink-rev {
   background-color: pink;
   min-width: 300px;
   min-height: 500px;
-  margin-left: 200px;
 }
 
 .fourth-section {
@@ -116,43 +115,66 @@ header {
 }
 .cl-1 {
   background-color: salmon;
-  min-width: 250px;
+  min-width: 300px;
   min-height: 500px;
   border: 2px dashed white;
 }
 .cl-2 {
   background-color: green;
-  min-width: 250x;
+  min-width: 180px;
   min-height: 500px;
   border: 2px dashed white;
 }
 .cl-3 {
   background-color: rgb(79, 237, 79);
-  min-width: 250px;
+  min-width: 180px;
   min-height: 500px;
   border: 2px dashed white;
 }
 .cl-4 {
   background-color: rgb(79, 237, 79);
-  min-width: 250px;
+  min-width: 180px;
   min-height: 500px;
   border: 2px dashed white;
 }
 .cl-5 {
   background-color: green;
-  min-width: 250x;
+  min-width: 180px;
   min-height: 500px;
   border: 2px dashed white;
 }
 
 footer {
-  background-color: aqua;
-  display: flex;
+  background-color: black;
+  border-top: 1px solid white;
   padding: 30px;
-
   line-height: 50px;
+  display: flex;
 }
+
 .footer-right {
+  background-color: aqua;
+
+  min-width: 70px;
+  flex-grow: 1;
+  margin-left: 10px;
 }
 .footer-left {
+  background-color: aqua;
+  min-width: 70px;
+  flex-grow: 1;
+  text-align: end;
+}
+
+#logo {
+  background-color: salmon;
+  border: 1px dashed black;
+  height: 40px;
+  width: 50px;
+  padding: 5px;
+}
+#bottone {
+  background-color: salmon;
+  border: 1px dashed red;
+  min-width: 70px;
 }
