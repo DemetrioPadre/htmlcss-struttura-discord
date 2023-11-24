@@ -12,6 +12,7 @@ header {
   padding: 30px;
   justify-content: center;
   align-content: space-between;
+  line-height: 50px;
 }
 
 .header-left {
@@ -19,14 +20,17 @@ header {
   border: 1px dashed red;
   min-width: 70px;
   flex-grow: 1;
+  margin-left: 10px;
 }
 .header-center {
   background-color: orange;
   border: 1px dashed red;
-  min-width: 70px;
-  flex-grow: 5;
+  flex-grow: 1;
   text-align: center;
+  display: flex;
   justify-content: space-around;
+  width: 40%;
+  display: inline-block;
 }
 .header-right {
   background-color: orange;
@@ -34,4 +38,15 @@ header {
   min-width: 70px;
   flex-grow: 1;
   text-align: end;
+}
+
+.first-section {
+  background-color: blue;
+  padding: 50px;
+}
+.pink {
+  background-color: pink;
+  min-height: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
 }
