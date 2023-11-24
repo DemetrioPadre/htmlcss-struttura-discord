@@ -16,12 +16,14 @@ header {
 
 .header-left {
   background-color: orange;
+  border: 1px solid black;
   min-width: 70px;
   flex-grow: 1;
   margin-left: 10px;
 }
 .header-center {
   background-color: orange;
+  border: 1px solid black;
   flex-grow: 1;
   text-align: center;
   display: flex;
@@ -31,6 +33,7 @@ header {
 }
 .header-right {
   background-color: orange;
+  border: 1px solid black;
   min-width: 70px;
   flex-grow: 1;
   text-align: end;
@@ -90,4 +93,18 @@ header {
   padding: 50px;
   display: flex;
   justify-content: center;
+}
+
+.five-section {
+  background-color: lightgray;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-green {
+  background-color: green;
+  min-width: 1000px;
+  min-height: 500px;
+  padding: 40px;
 }
