@@ -10,31 +10,27 @@ header {
   background-color: aqua;
   display: flex;
   padding: 30px;
-  justify-content: center;
-  align-content: space-between;
+
   line-height: 50px;
 }
 
 .header-left {
   background-color: orange;
-  border: 1px dashed red;
   min-width: 70px;
   flex-grow: 1;
   margin-left: 10px;
 }
 .header-center {
   background-color: orange;
-  border: 1px dashed red;
   flex-grow: 1;
   text-align: center;
   display: flex;
   justify-content: space-around;
-  width: 40%;
+  width: 400px;
   display: inline-block;
 }
 .header-right {
   background-color: orange;
-  border: 1px dashed red;
   min-width: 70px;
   flex-grow: 1;
   text-align: end;
@@ -49,4 +45,49 @@ header {
   min-height: 300px;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.second-section {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box-blue {
+  background-color: blue;
+  min-height: 500px;
+  min-width: 700px;
+  margin-left: 200px;
+}
+.box-pink {
+  background-color: pink;
+  min-width: 300px;
+  min-height: 500px;
+  margin-right: 200px;
+}
+.third-class {
+  background-color: lightgrey;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.box-blue-rev {
+  background-color: blue;
+  min-height: 500px;
+  min-width: 700px;
+  margin-right: 200px;
+}
+.box-pink-rev {
+  background-color: pink;
+  min-width: 300px;
+  min-height: 500px;
+  margin-left: 200px;
+}
+
+.fourth-section {
+  background-color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
 }
