@@ -108,3 +108,51 @@ header {
   min-height: 500px;
   padding: 40px;
 }
+.column {
+  background-color: black;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.cl-1 {
+  background-color: salmon;
+  min-width: 250px;
+  min-height: 500px;
+  border: 2px dashed white;
+}
+.cl-2 {
+  background-color: green;
+  min-width: 250x;
+  min-height: 500px;
+  border: 2px dashed white;
+}
+.cl-3 {
+  background-color: rgb(79, 237, 79);
+  min-width: 250px;
+  min-height: 500px;
+  border: 2px dashed white;
+}
+.cl-4 {
+  background-color: rgb(79, 237, 79);
+  min-width: 250px;
+  min-height: 500px;
+  border: 2px dashed white;
+}
+.cl-5 {
+  background-color: green;
+  min-width: 250x;
+  min-height: 500px;
+  border: 2px dashed white;
+}
+
+footer {
+  background-color: aqua;
+  display: flex;
+  padding: 30px;
+
+  line-height: 50px;
+}
+.footer-right {
+}
+.footer-left {
+}
